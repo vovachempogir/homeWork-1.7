@@ -13,7 +13,7 @@ public class Main {
         }
 
         //Задача 2
-        System.out.println(" Задача 2");
+        System.out.println(" Задача 2 ");
         int o = 0;
         while (o < 10){
             o++;
@@ -24,7 +24,7 @@ public class Main {
         }
 
         //Задача 3
-        System.out.println(" Задача 3");
+        System.out.println(" Задача 3 ");
         int population = 12_000_000;
         int born = 17;
         int death = 8;
