@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println();
         //Задача 1
-        System.out.println(" Задача 1");
+        System.out.println(" Задача 1 ");
         int accumulation = 15000;
         int all = 0;
         int k = 0;
@@ -13,7 +13,7 @@ public class Main {
         }
 
         //Задача 2
-        System.out.println(" Задача 2");
+        System.out.println(" Задача 2 ");
         int o = 0;
         while (o < 10){
             o++;
@@ -24,7 +24,7 @@ public class Main {
         }
 
         //Задача 3
-        System.out.println(" Задача 3");
+        System.out.println(" Задача 3 ");
         int population = 12_000_000;
         int born = 17;
         int death = 8;
@@ -71,7 +71,7 @@ public class Main {
         int friday = 5;
         int t = 1;
         for(; t <= 31; t++){
-            if(t % 5 ==0){
+            if(t % 7 == friday){
                 System.out.println("Сегодня пятница, " + t + "-е число. Необходимо подготовить отчет.");
             }
         }
