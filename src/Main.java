@@ -68,10 +68,9 @@ public class Main {
 
         //Задача 7
         System.out.println(" Задача 7");
-        int friday = 5;
         int t = 1;
         for(; t <= 31; t++){
-            if(t % 5 ==0){
+            if(t % 7 ==0){
                 System.out.println("Сегодня пятница, " + t + "-е число. Необходимо подготовить отчет.");
             }
         }
