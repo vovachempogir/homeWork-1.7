@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println();
         //Задача 1
-        System.out.println(" Задача 1");
+        System.out.println(" Задача 1 ");
         int accumulation = 15000;
         int all = 0;
         int k = 0;
